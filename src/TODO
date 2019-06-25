@@ -1,0 +1,27 @@
+ROUTING
+- Nav bar with all the games
+- Homescreen, Just a picture and list of games (copywrite Drew Verwiel)
+
+DICE
+- Create Die Component
+- Create Dice Component
+- CSS The Die
+
+GAME
+- Write out logic
+...
+...
+- Have popup to enter players
+
+HOW TO 
+- Reformat all the rules to (Dice Needed, Players, Scoring, Winning)
+- On each page create a Modal named How to Play that pops up the rules.
+
+MULTIPLAYER
+- allow multiple people to enter a username and play the game on the same device
+- at the end of each game have a play again option for same players or new game
+- player elimination logic (keep them in memory if they want to play again but not play the current rounds if they won)
+
+DESIGN
+- Responsive (Mobile)
+- Each game board should be similar, same spot for dice, players w/ score, and highest score/player
