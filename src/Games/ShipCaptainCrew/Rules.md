@@ -1,0 +1,2 @@
+6 dice, maximum three rolls per player.
+starting player sets the number of rolls for the rest of the players. they need to roll a 6, 5, 4 in that order or all at once in order to score anything. the remaining 2 dice are your score, if you roll 2 6's its called boxcars and everyone has to double their bets. if the round ends in a tie everyone places their bets again and a new round is started with the last player to roll starting.
