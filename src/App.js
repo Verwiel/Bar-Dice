@@ -1,30 +1,19 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import './App.css';
-import Dice from './Components/Die'
+import React, { Component } from 'react'
+import './App.css'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>Hello</h1>
+          <h1>Dice Games</h1>
         </header>
         <main>
-          <nav>
-            <Router>
-              <Switch>
-                <Route exact path="/" component=""/>
-                <Route path ="/BarDice" component=""/>
-              </Switch>
-            </Router>
-          </nav>
-          <Dice />
-          <Dice />
+          <p>Navbar to Dice Games</p>
         </main>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 
-export default () => {
+const Die = () => {
   const [roll, setRoll] = useState(0);
   const numSides = 6
   
   return (
-    <pre>
-    Roll: {roll}
-    <button onClick={() => setRoll(Math.ceil((Math.random()) * numSides))}>
-    Click me</button>
-    </pre>
+    <div>
+      <pre class="break">
+        Roll: {roll}
+      </pre>
+      <button onClick={() => setRoll(Math.ceil((Math.random()) * numSides))}>
+        Roll</button>
+    </div>
   )
 }
+
+export default Die

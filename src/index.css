@@ -12,3 +12,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.die {
+  border: 0.1rem outset black;
+  border-radius: 12px;
+  margin: 2rem;
+  padding: 1rem;
+
+}
