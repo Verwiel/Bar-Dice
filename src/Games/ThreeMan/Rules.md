@@ -1,0 +1,4 @@
+Only two dice. played with as many players as you want, if a player rolls a 3 (or 2 and 1) they then become three man. they remain three man until 
+they roll another three. you can keep rolling as long as it causes a player to drink (doubles, 7, 11, 3) once you cant its the next players turn.
+if you didnt manage to roll a three before your turn ended as three man youre stuck that way until its your turn to roll again, and hopefully roll a three. 
+roll a 7 and the player before you drinks, roll an 11 and the person after you drinks, roll double a number and you can select a rule for another player to attempt (if they roll doubles on it, it reverts back to you and you drink twice the wager), anytime someone rolls a three who int the three man, the three man drinks.
