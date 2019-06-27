@@ -1,17 +1,28 @@
 import React, { Component } from 'react'
+import { Switch, Route } from 'react-router-dom'
 import './App.css'
+import Navbar from './Components/Navbar'
+import Home from './Components/Home'
+import Aces from './Games/Aces/Game'
+import BarDice from './Games/BarDice/Game'
+import ShipCaptainCrew from './Games/ShipCaptainCrew/Game'
+import ThreeMan from './Games/ThreeMan/Game'
+import ThreesLow from './Games/ThreesLow/Game'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1>Dice Games</h1>
-        </header>
-        <main>
-          <p>Navbar to Dice Games</p>
-        </main>
-      </div>
+      <>
+      <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/Aces" component={Aces} />
+          <Route exact path="/BarDice" component={BarDice} />
+          <Route exact path="/ShipCaptainCrew" component={ShipCaptainCrew} />
+          <Route exact path="/ThreeMan" component={ThreeMan} />
+          <Route exact path="/ThreesLow" component={ThreesLow} />
+        </Switch>
+      </>
     )
   }
 }
