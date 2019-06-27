@@ -1,7 +1,3 @@
-ROUTING
-- Nav bar with all the games
-- Homescreen, Just a picture and list of games (copywrite Drew Verwiel)
-
 DICE
 - Create Die Component
 - Create Dice Component
@@ -23,5 +19,5 @@ MULTIPLAYER
 - player elimination logic (keep them in memory if they want to play again but not play the current rounds if they won)
 
 DESIGN
-- Responsive (Mobile)
+- Responsive (Mobile needs to be landscape)
 - Each game board should be similar, same spot for dice, players w/ score, and highest score/player
