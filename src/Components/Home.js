@@ -7,3 +7,5 @@ export default () => {
     </>
   )
 }
+
+// Edit CSS to keep img aspect ratio at different screen sizes

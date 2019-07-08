@@ -1,4 +1,6 @@
 import React from 'react'
+import Die from '../../Components/Die'
+import Dice from '../../Components/Dice'
 
 export default () => {
   return (
@@ -6,6 +8,9 @@ export default () => {
       <header>
         <h1>Ace's</h1>
       </header>
+
+      <Die />
+      <Dice />
 
       <main>
         {/* Fixed top left*/}
