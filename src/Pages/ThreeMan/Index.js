@@ -1,19 +1,17 @@
 import React from 'react'
-import Die from '../../Components/Die'
+import Game from './Game'
 
-export default (props) => {
+export default () => {
   return (
     <>
       <header>
-        <h1>Ace's</h1>
+        <h1>Three Man</h1>
       </header>
-
-      <Die />
-
+      
       <main>
         {/* Fixed top left*/}
         <section class='dice'>
-          <p>Dice Roll</p>
+          <Game />
         </section>
 
         {/* Fixed right, 100% height */}
@@ -25,7 +23,7 @@ export default (props) => {
 
         {/* Fixed bottom left */}
         <section class='info'>
-          <p>Saved Dice</p>
+          <p>messages</p>
         </section>
       </main>
     </>

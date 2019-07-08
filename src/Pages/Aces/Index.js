@@ -1,28 +1,29 @@
 import React from 'react'
+import Game from './Game'
 
 export default () => {
   return (
     <>
       <header>
-        <h1>Three Man</h1>
+        <h1>Ace's</h1>
       </header>
-      
+
       <main>
         {/* Fixed top left*/}
-        <section>
-          <p>Dice Roll</p>
+        <section class='dice'>
+          <Game />
         </section>
 
         {/* Fixed right, 100% height */}
-        <section>
+        <section class='saved'>
           <p>How to Play</p>
           <p>Scores/Players</p>
           <p>New Game</p>
         </section>
 
         {/* Fixed bottom left */}
-        <section>
-          <p>Saved Dice</p>
+        <section class='info'>
+          <p>messages</p>
         </section>
       </main>
     </>

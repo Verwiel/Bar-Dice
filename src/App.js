@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
 import './App.css'
 import Navbar from './Components/Navbar'
-import Home from './Components/Home'
-import Aces from './Games/Aces/Game'
-import BarDice from './Games/BarDice/Game'
-import ShipCaptainCrew from './Games/ShipCaptainCrew/Game'
-import ThreeMan from './Games/ThreeMan/Game'
-import ThreesLow from './Games/ThreesLow/Game'
+import Home from './Pages/Home'
+import Aces from './Pages/Aces/Index'
+import BarDice from './Pages/BarDice/Index'
+import ShipCaptainCrew from './Pages/ShipCaptainCrew/Index'
+import ThreeMan from './Pages/ThreeMan/Index'
+import ThreesLow from './Pages/ThreesLow/Index'
 
 class App extends Component {
   render() {

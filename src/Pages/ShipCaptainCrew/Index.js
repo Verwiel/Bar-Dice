@@ -1,4 +1,5 @@
 import React from 'react'
+import Game from './Game'
 
 export default () => {
   return (
@@ -9,23 +10,23 @@ export default () => {
       
       <main>
         {/* Fixed top left*/}
-        <section class=''>
-          <p>Dice Roll</p>
+        <section class='dice'>
+          <Game />
         </section>
 
         {/* Fixed right, 100% height */}
-        <section class=''>
-          <p>Bid</p>
+        <section class='saved'>
           <p>How to Play</p>
           <p>Scores/Players</p>
           <p>New Game</p>
         </section>
 
         {/* Fixed bottom left */}
-        <section class=''>
-          <p>Saved Dice</p>
+        <section class='info'>
+          <p>messages</p>
         </section>
       </main>
     </>
   )
 }
+// only allow 3 dice to be locked

@@ -1,1 +1,0 @@
-6 dice, 1 flop a player. player with the most of the same number, with aces being wild, will win. if its tied the higher number wins. each round the winning player is removed from the game. last player buys round or the first winner a drink.
