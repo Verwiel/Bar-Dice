@@ -1,38 +1,50 @@
+main {
+  background: gray;
+  /* height: 100%;
+  display: flex; */
+}
+
+header{
+  text-align: center;
+  height: 5%;
+}
+
+footer {
+  text-align: center;
+  height: 5%;
+}
+
+.dice {
+  background: blue;
+  /* flex-direction: column;
+  flex-basis: 50%; */
+}
+
+.saved {
+  background: aqua;
+  /* flex-direction: column;
+  flex-basis: 50%; */
+
+}
+
+.info {
+  background: green;
+  /* flex-basis: 50%;
+  flex-direction: column; */
+
+}
+
 .App {
   text-align: center;
 }
+/* Home class to make it take up entire screen except footer */
 
-header, footer {
-  text-align: center;
-}
+/* header always sticks to the very top */
+/* main is in between */
+/* footer always sticks to the very bottom */
 
-/* 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-} */
-/* 
-.App-header {
-  background-color: #ffffff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: Black;
-} */
-/* 
-.App-link {
-  color: #61dafb;
-} */
-/* 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+/* Everything below based of main */
+
+/* dice class to take up top left */
+/* saved class to take up bottom left */
+/* info class to take up right panel */

@@ -24,7 +24,7 @@ class App extends Component {
           <Route exact path="/ThreesLow" component={ThreesLow} />
         </Switch>
 
-        <footer>
+        <footer class='container-fluid'>
           <p>&copy; Drew Verwiel</p>
           <p>GitHub Link</p>
         </footer>

@@ -9,19 +9,19 @@ export default () => {
       
       <main>
         {/* Fixed top left*/}
-        <section>
+        <section class=''>
           <p>Dice Roll</p>
         </section>
 
         {/* Fixed right, 100% height */}
-        <section>
+        <section class=''>
           <p>How to Play</p>
           <p>Scores/Players</p>
           <p>New Game</p>
         </section>
 
         {/* Fixed bottom left */}
-        <section>
+        <section class=''>
           <p>Saved Dice</p>
         </section>
       </main>
