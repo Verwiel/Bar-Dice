@@ -1,8 +1,7 @@
 import React from 'react'
 import Die from '../../Components/Die'
-import Dice from '../../Components/Dice'
 
-export default () => {
+export default (props) => {
   return (
     <>
       <header>
@@ -10,7 +9,6 @@ export default () => {
       </header>
 
       <Die />
-      <Dice />
 
       <main>
         {/* Fixed top left*/}
